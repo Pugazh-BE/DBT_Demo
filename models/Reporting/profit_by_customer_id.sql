@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized='table'
+    )
+}}
+
 SELECT
     CUSTOMER_ID,
     CUSTOMER_NAME,
